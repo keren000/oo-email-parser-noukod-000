@@ -5,8 +5,8 @@
 class OOEmailParser
   attr_accessor :emails
 
-  def initialize(emails)
-    @email = emails
+  def initialize(email)
+    @email = email
   end
 
   def parse
