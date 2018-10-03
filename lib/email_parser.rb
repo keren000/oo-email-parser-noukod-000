@@ -9,5 +9,6 @@ class OOEmailParser
     @emails = emails
   end
 
-
+  def parser
+  end
 end
