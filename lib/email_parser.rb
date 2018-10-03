@@ -10,7 +10,7 @@ class OOEmailParser
   end
 
   def parser
-    #  emails.delete(',').split.uniq
-  emails.find_and_delete
+     emails.delete(',').split.uniq
+  # emails.find_and_delete
   end
 end
