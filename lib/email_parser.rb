@@ -11,7 +11,7 @@ class OOEmailParser
   end
 
   def parse
-    @emails.split(/[\s,]+/).uniq
+    @email.split(/[\s,]+/).uniq
   end
 
 end
