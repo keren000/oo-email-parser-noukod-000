@@ -4,7 +4,10 @@
 # or whitespace (' ').
 class OOEmailParser
   attr_accessor :emails
-  
+
   def initialize(emails)
     @emails = emails
+  end
+
+
 end
