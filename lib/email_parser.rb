@@ -4,11 +4,11 @@
 # or whitespace (' ').
 
 class OOEmailParser
-  attr_accessor :emails 
+  attr_accessor :email
 
-  def initialize(email)
-    @emails = email 
-  end 
+  def initialize(emails)
+    @email = emails
+  end
 
   def parse
     @emails.split(/[\s,]+/).uniq
