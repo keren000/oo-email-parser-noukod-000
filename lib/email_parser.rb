@@ -3,10 +3,10 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 class OOEmailParser
-  attr_accessor :emails
+  attr_accessor :email
 
-  def initialize(email)
-    @email = email
+  def initialize(emails)
+    @email = emails
   end
 
   def parse
